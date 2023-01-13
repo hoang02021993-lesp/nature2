@@ -1,0 +1,30 @@
+{
+  "name": "fb-faker-link",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "date-fns": "^2.29.3",
+    "formidable": "^2.0.1",
+    "formidable-serverless": "^1.1.1",
+    "iron-session": "^6.2.1",
+    "json-server": "^0.17.0",
+    "mongodb": "^4.10.0",
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.35.0"
+  },
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.3.0"
+  }
+}
